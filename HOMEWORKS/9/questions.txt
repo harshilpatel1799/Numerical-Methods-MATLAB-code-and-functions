@@ -1,0 +1,14 @@
+i.) 
+50.34%
+
+
+ii.) 
+midpoint is much more accurate for any interval size h or #of nodes, as conveyed from HW9_4 plot. This is consistent with our finding in class in looking
+at erf(x) from 0 to 1 using midpoint and trapezoid rules.
+
+
+
+iii.) 
+for midpoint rule error, the slope is 2.0109
+for trapeziod rule error, the slope is 2.0103
+This consistent as both rules have an error converagnce rate of a quadtratic nature and order of 2 as h/n increase. 

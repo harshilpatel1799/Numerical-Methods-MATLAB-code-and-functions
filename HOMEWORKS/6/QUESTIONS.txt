@@ -1,0 +1,27 @@
+%1st-order fit: a1=3.7914, a0=-2.8106
+, R^2=0.2442
+
+%2nd-order fit: a2=-0.1098, a1=4.8896, a0=-4.6224
+, R^2=0.2399
+
+
+
+“goodness” of the final	fit f2(t)	
+in the comment box. What exactly does the shape & distribu<on of residuals,
+and both of the	R2 values tell you?	
+
+
+The residual diagnostic plot allows us to determine model adquecy for f2(t). A good 
+model will have a balanced and random distrubution. The residual plot
+indicates there is a cyllical pattern in showing residuals being scattered 
+around zero. The expected value of the residuals seem to be zero but there 
+is pattern as there is not a constant variance, meaning there is 
+proablly an issue with the model be adquete to model the data. 
+
+The R2 value tells us the variation explained by the quadratic model. The 
+R2 is very low, meaning the model is not a great fit. Also the R2 reduced 
+from the 1st order fit, meaning the new variable/measure that 
+corresponds with x^2 is likely not/low in correlation or is a bad indicator 
+for curve fitting the data. The model need to be improved with as the
+inputs explain about 24% of the variation. We need a model variables
+that have high correlation to be adquete to model the data.

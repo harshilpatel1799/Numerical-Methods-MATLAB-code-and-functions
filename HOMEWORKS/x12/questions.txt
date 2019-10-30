@@ -1,0 +1,30 @@
+i.)
+Y1(60)=
+
+  -26.0048
+
+
+
+Y2(60) =
+
+  35.1901
+
+
+
+Y3(60) =
+
+  35.2890
+
+
+ii.) GE at t=21 days
+GE_2 = 0.2325
+
+GE_3 = 0.0021
+
+
+
+iii.) modified euler has an error order of 2 or O(deltat^2). So as t goes from 3 to 0.3 or a factor of 10, 
+the error should go down by a facor of 100 as 10^2=100 - this is the analytical expectation based on the error “order”	
+for the	Modified Euler method? But in our error analyis, the error decreased by about a factor of 110. This is what we expect.
+
+0.2325/0.0021 = 110.7143

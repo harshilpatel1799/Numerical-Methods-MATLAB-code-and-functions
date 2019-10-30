@@ -1,0 +1,8 @@
+i.) 0.503414696 OR  AND ERROR% OF 2.205384612302089e-14
+%
+
+ii.) slope is 4.10791089, this was calulated using the first and thrid point or as n goes form 8 to 500.
+
+
+iii.) nodes(n)=6.7338e+06
+ nodes or 6733800.

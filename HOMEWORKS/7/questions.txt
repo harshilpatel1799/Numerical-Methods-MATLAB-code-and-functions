@@ -1,0 +1,25 @@
+(i) Rate at t=3:  (a)5.8434
+%, (b)5.5000
+%, (c)5.5514
+%	
+
+
+(ii)Rate at t=18:  (a)66.8884%, (b)20.2000
+
+%, (c)21.7551
+
+%	
+
+
+
+
+
+(iii) the exact polynomial model is not good phyical model due to extreme overshooting or undershooting between 0 to 20 years interval. 
+Forcing the data to match polynomials has caused over-and under-shoots between data points. This is especially true during 10-20 years where exact polynomial model
+is unadequate model to decribe the behavior of the data as this causes large data errors. This is caused from gaps of collected data in this region and using order of 7 which
+overfits the data by wiggling and overshooting. The piecewise polynomial splines is our best choice to model the data. The linear spline model is adequate to interpolate collected data but the slope is 
+discontinous, meaning it misses real curvtures-- this causes larges errors and is underfitting the collected data btw intervals. Also it is unrealistic in phyical sense of the 
+behavior of the natural world where human activites and phyics usally do not have a linear pattern to them. THE BEST MODEL TO INTERPOLATE THE COLLECTED DATA OVER 0-20 YEARS
+IS THE CUBIC SPLINE MODEL AS IT FITS THE DATA AND IS ROBUST BETWEEN POINTS, WHILE ACCOUNTING MORE SMALLER ERRORS BETWEN POINTS TO MODEL THE NATURAL PHYICAL WORLD IN
+A ENGINEERING SENSE. IT ALSO HAS A SMOOTH TRASNSITION BTW POINTS WHILE INTERPOLATING THE COLLECTED DATA. 
+
